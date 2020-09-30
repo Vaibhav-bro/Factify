@@ -1,0 +1,291 @@
+.logo h2{
+  color:white;
+}
+body{
+background: linear-gradient(57deg, #00c6a7, #1e4d92) no-repeat center center fixed;
+}
+.header{
+    width:100%;
+    height:100vh;
+    
+   
+}
+nav{
+    width:100%;
+    height:100px;
+    display:flex;
+}
+.logo{
+    width:50%;
+    height:100px;
+}
+.logo h2{
+    position:relative;
+    left:50px;
+    top:25px;
+}
+.menu{
+    width:50%;
+    height:100px;
+}
+.menu ul{
+    list-style: none;
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li{
+    font-size:20px;
+    font-weight: bold;
+     color:white;
+}
+
+section{
+    display:flex;
+    position:relative;
+    top:-500px;
+}
+img{
+position:relative;
+top:-50px !important;
+}
+.ri{
+    position: relative;
+    left:400px;
+    top:100px;
+    color:white;
+}
+.ri h1{
+    font-size:40px;
+    position:relative;
+   left:-130px;
+}
+.ri button{
+    font-size:30px;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+   outline:transparent;
+   color:white;
+   text-transform: uppercase;
+   border-radius:4px;
+   border:2px solid transparent;
+   padding:10px ;
+   margin:15px;
+}
+.ri button:hover{
+     background: linear-gradient(57deg, #1e4d92, #00c6a7 );
+}
+.card1 {
+  text-align:center;
+  width: 250px;
+  height: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(rgb(225,150,58),rgb(227,144,91));
+  transition:.6s;
+  box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+position:relative;
+top:-300px;
+left:100px;
+}
+.card1 img{
+height:150px;
+width:250px;
+}
+.card2 {
+      text-align:center;
+      width: 250px;
+      height: 350px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background: linear-gradient(#ae3dff, #7a00d1);
+      transition:.6s;
+      box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+      position:relative;
+      top:100px;
+      left:900px;
+}
+.card2 img{
+    width:250px;
+    height:150px;
+}
+.card3 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 600px;
+    left: 100px;
+}
+
+.card3 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card4 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 1200px;
+    left: 900px;
+}
+
+.card4 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card5 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 1800px;
+    left: 100px;
+}
+
+.card5 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card6 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 2400px;
+    left: 900px;
+}
+
+.card6 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card7 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 2900px;
+    left: 100px;
+}
+
+.card7 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card8 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 3400px;
+    left: 900px;
+}
+
+.card8 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card9 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 4000px;
+    left: 100px;
+}
+
+.card9 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card10 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 4600px;
+    left: 900px;
+}
+
+.card10 img {
+    width: 250px;
+    height: 150px;
+}
+
+.card11 {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#ae3dff, #7a00d1);
+    transition: .6s;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 5200px;
+    left: 100px;
+}
+
+.card11 img {
+    width: 250px;
+    height: 150px;
+}
+a{
+color:white;
+text-decoration:none;
+
+}
+a:hover{
+border-bottom:5px solid white;
+}

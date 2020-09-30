@@ -1,0 +1,36 @@
+body{
+background: url("img.jpg") no-repeat center center fixed;
+background-size: cover;
+display: flex;
+}
+.btn{
+position: absolute;
+top: 50%;
+left:40%;
+font-size: 40px;
+background:transparent;
+border: 4px solid transparent;
+box-shadow: 0 0 10px tomato,
+0 0 20px tomato,
+0 0 50px tomato,
+0 0 200px tomato;
+}
+.btn:hover{
+    box-shadow: 0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 50px cyan,
+    0 0 200px cyan;
+    background: cyan;
+    color:black;
+}
+.heading{
+    position: absolute;
+    top: 30%;
+    left:30%;    
+}
+#icon{
+    position:absolute;
+    top:51%;
+    left:920px;
+    color:black;
+}

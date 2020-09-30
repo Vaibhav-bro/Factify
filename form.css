@@ -1,0 +1,95 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("img1.jpg");
+    background-size: cover;
+}
+
+.box {
+    position: relative;
+    top:10px;
+    left:500px;
+    align-items: center;
+    width: 400px;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.247);
+    border: 4px solid rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+
+}
+.first{
+    height:30px;
+    position:absolute;
+    left:100px;
+    top:280px;
+}
+.dob {
+    height: 40px;
+    position: relative;
+    left: 56px;
+    width: 157px;
+}
+
+.email {
+    height: 30px;
+    position: relative;
+    left: 57px;
+}
+
+#user {
+    position: relative;
+    left: 57px;
+    top: 10px;
+}
+
+#cake {
+    position: relative;
+    left: 57px;
+    top: 10px;
+}
+
+#email {
+    position: relative;
+    left: 57px;
+    top: 10px;
+}
+.Submit{
+    position:relative;
+    top:-30px;
+    left:60px;
+    width:100px;
+    height:30px;
+    background:#edb2dd;
+    outline:none;
+}
+.Submit:hover{
+    background:black;
+    color:white;
+    box-shadow:  0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50px cyan,
+    0 0 200px cyan,
+    0 0 500px cyan,
+    0 0 1000px cyan;
+}
+.box:hover{
+    color:black;
+background:rgb(153, 255, 153);
+box-shadow:  0 0 5px rgb(153, 255, 153),
+    0 0 25px rgb(153, 255, 153),
+    0 0 50px rgb(153, 255, 153),
+    0 0 200px rgb(153, 255, 153),
+    0 0 500px rgb(153, 255, 153),
+    0 0 1000px rgb(153, 255, 153),
+    0 0 2000px rgb(153, 255, 153);
+}
+.btn1{
+    position: relative;
+    top:-30px;
+    left:30px;
+    width:100px;
+    height:30px;
+        background: cyan;
+        color:black;
+}
